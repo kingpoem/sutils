@@ -26,3 +26,9 @@ makefile 用于查看 `~/.local/bin` 目录下已有的东西
 本仓库中每个脚本应该是单独可运行的，可能存在使用其他仓库的脚本的情况，但不会出现当前脚本和其他同仓库脚本一起使用的情况
 
 每个脚本文件在最前面会说明脚本作用
+
+如果你只希望下载单个脚本到某个路径下，请点击 Github 上的 `raw`，然后复制 url，使用任意如下命令：
+```shell
+curl -L -o ./test.sh https://raw.githubusercontent.com/kingpoem/sutils/refs/heads/main/scripts/mac/show_256_colors.sh
+wget -O ./test.sh https://github.com/kingpoem/sutils/blob/main/scripts/mac/show_256_colors.sh
+```
