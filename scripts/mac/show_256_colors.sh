@@ -55,7 +55,7 @@ for arg in "$@"; do
             exit 0
             ;;
         *)
-            echo "❌ Unknown option: $arg"
+            echo "Unknown option: $arg"
             echo "$HELP"
             exit 1
             ;;
